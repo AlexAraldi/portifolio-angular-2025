@@ -1,2 +1,64 @@
 @use 'bootstrap';
 @use 'bootstrap-icons';
+
+$cor-principal: #ec6afa;
+$cor-secundaria: #4d4d4e;
+
+$cor-background-1: linear-gradient(135deg, #1e3c72, #2a5298);
+$cor-background-2: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+// 🌌 Roxo Galaxy
+$cor-background-3: linear-gradient(135deg, #41295a, #2f0743);
+$cor-background-4: linear-gradient(135deg, #654ea3, #eaafc8);
+// 🌅 Pôr do Sol
+$cor-background-5: linear-gradient(135deg, #ff7e5f, #feb47b);
+$cor-background-6: linear-gradient(135deg, #f7971e, #ffd200);
+// 🌿 Verde Esmeralda
+$cor-background-7: linear-gradient(135deg, #56ab2f, #a8e063);
+$cor-background-8: linear-gradient(135deg, #11998e, #38ef7d);
+// 🖤 Dark Futurista
+$cor-background-9: linear-gradient(135deg, #232526, #414345);
+$cor-background-10: linear-gradient(135deg, #0f2027, #2c5364);
+// 🌈 Multicolor vibrante
+$cor-background-11: linear-gradient(135deg, #ff0099, #493240);
+$cor-background-12: linear-gradient(135deg, #ee0979, #ff6a00);
+// 13 - Black Steel
+$cor-background-13: linear-gradient(135deg, #0f0f0f, #434343);
+// 14 - Navy Royal
+$cor-background-14: linear-gradient(135deg, #000428, #004e92);
+// 15 - Gray Titanium
+$cor-background-15: linear-gradient(135deg, #283048, #859398);
+// 16 - Emerald Night
+$cor-background-16: linear-gradient(135deg, #134e5e, #71b280);
+// 17 - Blue Steel
+$cor-background-17: linear-gradient(135deg, #485563, #29323c);
+// 18 - Space Purple
+$cor-background-18: linear-gradient(135deg, #41295a, #2f0743);
+// 19 - Cyber Blue
+$cor-background-19: linear-gradient(135deg, #1f1c2c, #928dab);
+// 20 - Graphite
+$cor-background-20: linear-gradient(135deg, #232526, #414345);
+// 21 - Ocean Dark
+$cor-background-21: linear-gradient(135deg, #2c3e50, #4ca1af);
+// 22 - Dark Blue Tech
+$cor-background-22: linear-gradient(135deg, #141e30, #243b55);
+
+section {
+  display: flex;
+  min-height: 100vh;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.app-background-secundario {
+  background: $cor-background-14;
+}
+.app-banner-text {
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  background-clip: text;
+  color: transparent;
+}
+.app-btn-principal {
+  background: $cor-background-14;
+  &:hover {
+    background: $cor-background-1;
+  }
+}
